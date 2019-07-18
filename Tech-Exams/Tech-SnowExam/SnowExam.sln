@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.539
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01-Snowballs", "P01-Snowballs\P01-Snowballs.csproj", "{FD05C5CF-3C8E-48F9-8376-0CEAE8AE749D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04-SnowWhite", "P04-SnowWhite\P04-SnowWhite.csproj", "{BF65E439-7167-4C8E-8A9A-3F4041848619}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD05C5CF-3C8E-48F9-8376-0CEAE8AE749D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD05C5CF-3C8E-48F9-8376-0CEAE8AE749D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD05C5CF-3C8E-48F9-8376-0CEAE8AE749D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD05C5CF-3C8E-48F9-8376-0CEAE8AE749D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF65E439-7167-4C8E-8A9A-3F4041848619}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF65E439-7167-4C8E-8A9A-3F4041848619}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF65E439-7167-4C8E-8A9A-3F4041848619}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF65E439-7167-4C8E-8A9A-3F4041848619}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D11118C5-3A66-4D2C-A25F-34E5D947DB71}
+	EndGlobalSection
+EndGlobal

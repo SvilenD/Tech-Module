@@ -1,0 +1,26 @@
+﻿@model List<TweetViewModel>
+@{
+    ViewData["Title"] = "Search";
+}
+
+<h1>Search By <span id="HashTag">#HashTag</span></h1>
+<p>
+    Enter <span class="BlueBold">#HashTag#</span> Filter Here:
+</p>
+<form>
+    <input type="text" name="hashtag" placeholder="#" />
+    <input type="submit" value="Search" class="btn-danger" />
+</form>
+
+@{int num = 1; }
+
+@foreach (var tweet in Model)
+{
+    <p>
+        @num .
+        <strong>@tweet.Username:</strong>
+        @tweet.Text
+        <span class="CreatedOn">(@tweet.CreatedOn)</span>
+    </p>
+    num++;
+}

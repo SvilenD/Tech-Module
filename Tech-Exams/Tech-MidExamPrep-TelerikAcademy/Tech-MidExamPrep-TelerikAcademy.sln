@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P01-MultiverseCommunication", "P01-MultiverseCommunication\P01-MultiverseCommunication.csproj", "{EF4581D0-8E1F-47C4-B3EF-34761A3DE9A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02-MagicWords", "P02-MagicWords\P02-MagicWords.csproj", "{096FD57A-EA82-49F3-941C-AB935C9AD192}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF4581D0-8E1F-47C4-B3EF-34761A3DE9A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF4581D0-8E1F-47C4-B3EF-34761A3DE9A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF4581D0-8E1F-47C4-B3EF-34761A3DE9A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF4581D0-8E1F-47C4-B3EF-34761A3DE9A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{096FD57A-EA82-49F3-941C-AB935C9AD192}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{096FD57A-EA82-49F3-941C-AB935C9AD192}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{096FD57A-EA82-49F3-941C-AB935C9AD192}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{096FD57A-EA82-49F3-941C-AB935C9AD192}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FD7FA1F0-5301-4483-B8E3-668DFD4261FF}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,36 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
+using Forum.Models;
+
+namespace Forum.Data
+{
+    public class ForumDbContext : IdentityDbContext<ApplicationUser> 
+    {
+        public ForumDbContext(DbContextOptions<ForumDbContext> options)
+            : base(options)
+        {
+        }
+
+        public DbSet<Topic> Topics { get; set; }		//mapping our model to DataBase tables with same name!!!
+        public DbSet<Comment> Comments { get; set; }
+        public DbSet<Category> Categories { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            base.OnModelCreating(builder);
+            // Customize the ASP.NET Identity model and override the defaults if needed.
+            // For example, you can rename the ASP.NET Identity table names and more.
+            // Add your customizations after calling base.OnModelCreating(builder);
+        }
+
+        private const string ConnectionString = @"Server=.\SQLEXPRESS;Database=Topic;Integrated Security = true;";
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) // write "override " and choose from list
+        {
+            optionsBuilder.UseSqlServer(ConnectionString);
+        }
+    }
+}

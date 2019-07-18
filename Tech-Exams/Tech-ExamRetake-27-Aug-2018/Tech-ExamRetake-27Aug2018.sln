@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.438
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P01-Hogswatch", "P01-Hogswatch\P01-Hogswatch.csproj", "{8B350645-6D37-4D45-99DA-39C52569E5D9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P02-GrainsOfSand", "P02-GrainsOfSand\P02-GrainsOfSand.csproj", "{2A526A29-C83A-4EBD-BFE9-8C088B4DB0CC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P03-PostOffice", "P03-PostOffice\P03-PostOffice.csproj", "{6558D9E9-0E43-475D-9B59-BA6CDD25C3D2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P03-PostOffice-ForumSolution", "P03-PostOffice-ForumSolution\P03-PostOffice-ForumSolution.csproj", "{97F5829F-2622-409F-A771-E2594C98396E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P04-IronGirder", "P04-IronGirder\P04-IronGirder.csproj", "{79679802-036D-4771-B638-5EA1D65D8FB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04-IronGirder-Objects", "P04-IronGirder-Objects\P04-IronGirder-Objects.csproj", "{800ECC2A-3AC0-47C7-8D25-70B78B9C04D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B350645-6D37-4D45-99DA-39C52569E5D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B350645-6D37-4D45-99DA-39C52569E5D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B350645-6D37-4D45-99DA-39C52569E5D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B350645-6D37-4D45-99DA-39C52569E5D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A526A29-C83A-4EBD-BFE9-8C088B4DB0CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A526A29-C83A-4EBD-BFE9-8C088B4DB0CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A526A29-C83A-4EBD-BFE9-8C088B4DB0CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A526A29-C83A-4EBD-BFE9-8C088B4DB0CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6558D9E9-0E43-475D-9B59-BA6CDD25C3D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6558D9E9-0E43-475D-9B59-BA6CDD25C3D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6558D9E9-0E43-475D-9B59-BA6CDD25C3D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6558D9E9-0E43-475D-9B59-BA6CDD25C3D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97F5829F-2622-409F-A771-E2594C98396E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97F5829F-2622-409F-A771-E2594C98396E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97F5829F-2622-409F-A771-E2594C98396E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97F5829F-2622-409F-A771-E2594C98396E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79679802-036D-4771-B638-5EA1D65D8FB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79679802-036D-4771-B638-5EA1D65D8FB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79679802-036D-4771-B638-5EA1D65D8FB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79679802-036D-4771-B638-5EA1D65D8FB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{800ECC2A-3AC0-47C7-8D25-70B78B9C04D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{800ECC2A-3AC0-47C7-8D25-70B78B9C04D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{800ECC2A-3AC0-47C7-8D25-70B78B9C04D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{800ECC2A-3AC0-47C7-8D25-70B78B9C04D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3DFD17E9-D753-4D4C-B399-25497706A339}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,19 @@
+﻿@model List<TweetViewModel>
+@{
+    ViewData["Title"] = "ByHashTag";
+}
+
+<h1>Selected by<span id="HashTag">#HashTag</span></h1>
+
+@{int num = 1; }
+
+@foreach (var tweet in Model)
+{
+    <p>
+        @num .
+        <strong>@tweet.Username:</strong>
+        @tweet.Text
+        <span class="CreatedOn">(@tweet.CreatedOn)</span>
+    </p>
+    num++;
+}

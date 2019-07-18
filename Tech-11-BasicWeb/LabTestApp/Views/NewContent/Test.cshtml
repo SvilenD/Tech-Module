@@ -1,0 +1,17 @@
+﻿@model List<int>
+@{
+    ViewData["Title"] = "Test";
+}
+
+<h2>Test</h2>
+
+<form method="post">
+    <input type="number" name="numberSubmitted" placeholder="Enter number" />
+    <input type="submit" value="Generate list" />
+</form>
+
+@for (int i = 0; i < Model.Count; i++)
+{
+    <li id="list-numbers"> @Model[i] </li>
+}
+<img id="hate-HTML" src="https://image.spreadshirtmedia.com/image-server/v1/mp/compositions/T812A1MPA1663PT17X0Y64D11868240S55/views/1,width=500,height=500,appearanceId=1,backgroundColor=FFFFFF,noPt=true,version=1543820067/html-end-hate-men-s-premium-t-shirt.jpg" alt="Hate HTML!" />

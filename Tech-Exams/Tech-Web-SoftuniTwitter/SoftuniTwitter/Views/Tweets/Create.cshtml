@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<form method="post" action="/Tweets/Create">
+    <textarea name="Text" class="form-control" maxlength="140" placeholder="Message Length Restricted to 240 characters!" ></textarea>  @*bootstrap clasove*@
+    <hr />
+    <input type="reset" name="Reset" value="Clear" class="btn-sm" />
+    <input type="submit" name="Submit" value="Post" class="btn-success" />
+</form>

@@ -1,0 +1,20 @@
+﻿@model List<TweetViewModel>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to SoftUni Tweeter Project</h1>
+    <p id="CreateNewTweet">Create new Tweet <a href="/Tweets/Create"><span class="BlueBold">HERE</span></a>.</p>
+</div>
+
+<h3>Recent Tweets: </h3>
+<hr />
+@foreach (var tweet in Model)
+{
+    <p>
+    <strong>@tweet.Username:</strong> 
+    @Html.Raw(tweet.Text) 
+    <span class="CreatedOn">(@tweet.CreatedOn)></span>
+    </p>
+}
